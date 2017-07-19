@@ -1,0 +1,150 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="周嘉伟">
+  <meta name="Keywords" content="个人前端页面">
+  <meta name="Description" content="前端作品,前端笔记,前端分享">
+  <title>我的前端平台</title>
+  <link rel="stylesheet" href="css/home.css">
+  
+ </head>
+ <body>
+	<div id='load'>
+		<div id="logo">
+			<ul>
+				<ol><img src="img/home/logo-z.png" alt=""></ol>
+				<ol><img src="img/home/logo-j.png" alt=""></ol>
+				<ol><img src="img/home/logo-w.png" alt=""></ol>
+				<ol><h1>'Blog</h1></ol>
+			</ul>
+		</div>
+		<ul id='black'>
+			<li class='black1 clearfix'>
+				<img src='img/home/logo-w.png'>
+				<img src='img/home/logo-j.png'>
+				<img src='img/home/logo-z.png'>	
+			</li>
+			<li class='black2'></li>
+			<li class='black3'></li>
+			<li class='black4 clearfix'>
+				<img src='img/home/logo-z.png'>
+				<img src='img/home/logo-j.png'>
+				<img src='img/home/logo-w.png'>		
+			</li>
+		</ul>
+	    <div id='enter-btn'>
+				<p>点击开始</p>
+			<div class="clickhand"></div>
+		</div>
+		<div id='qrcode'  class='clearfix'>
+			<h1><img src="img/home/l-arrow.png" alt="">
+			二维码
+			</h1>
+			<img src="img/home/qrcode.jpg" alt="">
+		</div>
+	</div>
+	<!--导航区-->
+	<div id="header">
+		<div class="container clearfix">
+			<div class="logo">
+				<img src="img/index/logo.png" alt="">
+			</div>
+			<div class="nav">
+				<ul class='clearfix'>
+					<ol><p>主&nbsp&nbsp&nbsp&nbsp页</p></ol>
+					<ol><p>实战项目</p></ol>
+					<ol><p>学习分享</p></ol>
+					<ol><p>个人交流</p></ol>
+				</ul>
+			</div>
+		</div>
+	</div>
+
+	<!-- 主页 -->
+	<div id="index" class='firstFloor'>
+		<!-- 轮播区域 -->
+		<div class="banner">
+			<div class="b-main">
+				<ul>
+					<ol><a href="http://www.w3school.com.cn/html5/index.asp" target="_blank"><img src="img/index/html.png" alt=""></a></ol>
+					<ol><a href="http://www.w3school.com.cn/css/index.asp" target="_blank"><img src="img/index/css.jpg" alt=""></a></ol>
+					<ol><a href="http://www.w3school.com.cn/js/index.asp" target="_blank"><img src="img/index/js.png" alt=""></a></ol>
+				</ul>
+			</div>
+			<div class="b-tab">
+				<ul class='clearfix'>
+					<ol class='on'></ol>
+					<ol></ol>
+					<ol></ol>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<!-- 实战项目 -->
+	<div id="project" class='firstFloor'>
+            <div class="main">
+                <div class="banner">
+                    <div class="pic">
+                        <ul>
+                            <li class="mid"><a href="huibangshop/index.html" target="_blank"><img src="img/project/huibangshop.png" alt=""></a></li>
+                            <li class="right"><a href="planewar/index.html" target="_blank"><img src="img/project/planewar.png" alt=""></a></li>
+                            <li><a href="webmobile/index.html" target="_blank"><img src="img/project/webmobile.png" alt=""></a></li>
+                            <li class="left"><a href="lantu/index.html" target="_blank"><img src="img/project/lantu.png" alt=""></a></li>
+                        </ul>
+                    </div>
+                    <div class="btn">
+                        <p class="left"></p>
+                        <p class="right"></p>
+                    </div>
+                </div>
+            </div>
+	</div>
+
+	<!-- 学习分享 -->
+	<div id="share" class='firstFloor'>
+		<div class="box">
+			<ul class="clearfix">
+				<li class='pa1'>
+					<a href="javascript.html" target='_blank'>
+						<div class="img"></div>
+						<p>javascript</p>
+					</a>
+				</li>
+				<li class='pa2'>
+					<a href="javascript:void(0)">
+						<div class="img"></div>
+						<p>jquery</p>
+					</a>
+				</li>
+				<li class='pa3'>
+					<a href="javascript:void(0)">
+						<div class="img"></div>
+						<p>Vue.js</p>
+					</a>	
+				</li>
+				<li class='pa4'>
+					<a href="javascript:void(0)">
+						<div class="img"></div>
+						<p>瀑布流</p>
+					</a>	
+				</li>
+				<li class='pa5'>
+					<a href="javascript:void(0)">
+						<div class="img"></div>
+						<p>响应式导航</p>
+					</a>
+				</li>
+			</ul>	
+		</div>
+	</div>
+
+	<!-- 个人交流 -->
+	<div id="contact" class='firstFloor'></div>
+	
+	<script src="js/jquery-3.1.1.min.js"></script>
+	<script src="js/home.js"></script>
+ </body>
+</html>
